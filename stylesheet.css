@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -15,14 +15,16 @@ body, html {
     position: relative;
     height: 40px;
     width: fit-content;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     border-style: none;
     background-color: black;
-    padding-bottom: 600px;
+    padding-bottom: 2600px;
+
 }
 
 /* Centering the header-tab, my_image, and about_me sections */
 .header-tab, .my_image, .about_me {
+    
     width: 80%; /* Adjust as needed */
     margin: 20px 0;
     padding: 0px 20px;
@@ -112,6 +114,55 @@ body, html {
     height: 820px; /* Increase height as needed */
     width:80%;
     position: relative;
+    background-color: #f3f3f3; /* Background color for visibility */
+    border: 1px solid #ccc; /* Border for visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.achievements_and_internships{
+    margin-top:40px;
+    height: 820px;
+    width:80%;
+    position:relative;
+    background-color: #f3f3f3; /* Background color for visibility */
+    border: 1px solid #ccc; /* Border for visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Online_certifications{
+    margin-top:40px;
+    height: 820px;
+    width:80%;
+    position:relative;
+    background-color: #f3f3f3; /* Background color for visibility */
+    border: 1px solid #ccc; /* Border for visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Coursework_and_skills{
+    margin-top:40px;
+    height: 820px;
+    width:80%;
+    position:relative;
+    background-color: #f3f3f3; /* Background color for visibility */
+    border: 1px solid #ccc; /* Border for visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2{
+    color:goldenrod;
+}
+
+h4{
+    color:blue;
+}
+
+footer{
+    margin-top:20px;
+    height: fit-content;
+    width:100%;
+    position:relative;
     background-color: #f3f3f3; /* Background color for visibility */
     border: 1px solid #ccc; /* Border for visibility */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
