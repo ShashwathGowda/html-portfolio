@@ -168,3 +168,32 @@ footer{
     width:100%;
     position:relative;
 }
+
+* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    body, html {
+        display: block;
+    }
+    
+    .header-tab, .my_image, .about_me, .education, .projects, .achievements_and_internships, .Online_certifications, .Coursework_and_skills {
+        width: 90%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .education .base, .education .reva {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body, html {
+        font-size: 14px;
+    }
+
+    .header-tab, .my_image, .about_me, .education, .projects, .achievements_and_internships, .Online_certifications, .Coursework_and_skills {
+        width: 95%;
+    }
+}
