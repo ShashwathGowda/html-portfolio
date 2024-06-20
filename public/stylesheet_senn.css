@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    
+}
+
+h2{
+
+}
+
+.nav_tab{
+    background-color: #f3f3f3;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.About{
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    border-width: 80%;
+    box-shadow: 0 0 5px;
+    margin-top:20px;
+}
+
+.results, .conclusion{
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    margin-top:20px;
+    box-shadow: 0 0 5px;
+    justify-content: center;
+}
