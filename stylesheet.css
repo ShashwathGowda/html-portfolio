@@ -18,6 +18,15 @@ body, html {
     background-color: black;
 }
 
+.nav-tab{
+    background-color: #f3f3f3;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
 /* Styling for the header-tab */
 .header-tab {
     color: white;
@@ -30,8 +39,8 @@ body, html {
 }
 
 li {
-      list-style: none;
-    }
+    list-style: none;
+  }
 
 .header-tab h2 {
     color: white;
@@ -56,6 +65,7 @@ li {
     height: auto;
     max-width: 200px; 
     border-radius: 50%; 
+    
 }
 
 .about_me {
